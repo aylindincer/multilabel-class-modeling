@@ -1,6 +1,6 @@
 # Multilabel Classification: Predicting Abstract Keywords
 
-**If unable to access view .ipynb file, use the following link to view script: https://nbviewer.jupyter.org/github/aylindincer/multilabel-class-modeling/blob/main/Multilabel_Classification_Predicting_Keywords.ipynb **
+**If unable to  view .ipynb file, use the following link to view script: https://nbviewer.jupyter.org/github/aylindincer/multilabel-class-modeling/blob/main/Multilabel_Classification_Predicting_Keywords.ipynb **
 
 # General Description:
 
