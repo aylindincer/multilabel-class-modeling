@@ -29,7 +29,7 @@ This is a classification problem as I want to classify each abstract with a set 
 
 - Preprocess the keywords by first fitting the keywords to the MultiLabelBinarizer() estimator and later transforming the keywords (training and test set) into a binary matrix.
 
-    -The binary matrix format is needed to run further estimators.
+    - The binary matrix format is needed to run further estimators.
 
 - Split the data into a training set and a test set
 
@@ -37,7 +37,7 @@ This is a classification problem as I want to classify each abstract with a set 
 
 - Need to apply the term frequency-inverse document frequency (tf-idf) algorithm to all of my abstract texts.
 
-    -tf-idf is an algorithm for text mining that essentially outputs a weight for each word and evaluates how important the word is to all the documents. The importance of the word is measured by the number of times the words appear in the one document (term frequency), but is offset by how frequency of the word in all of the documents (inverse-document frequency). This alogrithm would avoid words such as and, the, I, etc.
+    - tf-idf is an algorithm for text mining that essentially outputs a weight for each word and evaluates how important the word is to all the documents. The importance of the word is measured by the number of times the words appear in the one document (term frequency), but is offset by how frequency of the word in all of the documents (inverse-document frequency). This alogrithm would avoid words such as and, the, I, etc.
 
 - To predict multiple labels, use the one-versus-rest algorithm (OneVsRestClassifier). This algorithm breaks down the problem into multiple independent binary classification.
 
