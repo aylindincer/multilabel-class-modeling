@@ -1,4 +1,4 @@
-# Multilabel Classification: Predicting Abstract Keywords
+# Multilabel Classification: Predicting Scientific Abstract Keywords
 
 **If unable to  view .ipynb file, use the following link to view script: 
 
